@@ -8,10 +8,10 @@
 
     <EditText
         android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="57dp"
+        android:layout_width="322dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
         android:ems="10"
         android:hint="Name"
         android:inputType="textPersonName"
@@ -20,8 +20,8 @@
 
     <EditText
         android:id="@+id/message"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="321dp"
+        android:layout_height="54dp"
         android:layout_marginTop="11dp"
         android:ems="10"
         android:hint="Message"
@@ -31,8 +31,8 @@
 
     <Button
         android:id="@+id/channel1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="294dp"
+        android:layout_height="51dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="22dp"
         android:onClick="sendOnChannel1"
@@ -42,8 +42,8 @@
 
     <Button
         android:id="@+id/channel2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="294dp"
+        android:layout_height="52dp"
         android:layout_marginTop="14dp"
         android:onClick="sendOnChannel2"
         android:text="Send on Channel 2"
